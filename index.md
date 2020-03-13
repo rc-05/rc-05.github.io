@@ -1,5 +1,3 @@
-<title>rc-05's github page</title>
-
 Hi! Welcome to my humble site!  
 Here's my projects:
 
