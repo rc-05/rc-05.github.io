@@ -5,7 +5,7 @@ Here's my projects:
 (A shell script to help building XBPS packages
 for Void Linux from source.)
 * [Source Code of this very website](https://github.com/rc-05/rc-05.github.io)
-* [docgen](https://github.com/rc-05/rc-05.github.io)
+* [docgen](https://github.com/rc-05/docgen)
 (A ChezScheme library for generating interactive documentation a-la Common Lisp)
 
 ## Articles

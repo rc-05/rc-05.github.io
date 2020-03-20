@@ -22,5 +22,5 @@ I hope that it can be useful not only for me but for somebody else! :smile:
 ---
 *Written on Friday 20th March 2020*
 
-[:arrow_right: Previous Article](https://rc-05.github.io/articles/hello-world)
-[:house: Return to the Home Page](https://rc-05.github.io)
+[⬅ Previous Article](https://rc-05.github.io/articles/hello-world)
+[🏠 Return to the Home Page](https://rc-05.github.io)

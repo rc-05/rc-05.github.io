@@ -8,4 +8,4 @@ See you the next time! ;)
 ---
 *Written on Friday 13rd March 2020*
 
-[:house: Return to the Home Page](https://rc-05.github.io)
+[🏠 Return to the Home Page](https://rc-05.github.io)
