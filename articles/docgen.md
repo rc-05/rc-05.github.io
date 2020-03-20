@@ -17,7 +17,7 @@ itself, like this:
 This is why I've created [**docgen**](https://github.com/rc-05/docgen),
 a library for generating interactive documentation with ChezScheme.
 
-I hope that it can be useful not only for me but for somebody else! :smile:
+I hope that it can be useful not only for me but for somebody else! ☺️
 
 ---
 *Written on Friday 20th March 2020*
