@@ -188,22 +188,15 @@ a Nim :)
 
 * [Introducing –gc:arc](https://forum.nim-lang.org/t/5734)
 * [Update on –gc:arc](https://forum.nim-lang.org/t/6549)
-* [New garbage collector –gc:orc is a joy to use.]
-(https://forum.nim-lang.org/t/6483)
-* [Nim destructors and move semantics]
-(https://nim-lang.org/docs/destructors.html)
-* [FOSDEM 2020 - Move semantics for Nim]
-(https://www.youtube.com/watch?v=yA32Wxl59wo)
-* [NimConf 2020 - Nim ARC/ORC]
-(https://www.youtube.com/watch?v=aUJcYTnPWCg)
-* [Nim community]
-(https://nim-lang.org/community.html)
-* [RFC: Unify Nim’s GC/memory management options]
-(https://github.com/nim-lang/RFCs/issues/177)
+* [New garbage collector –gc:orc is a joy to use.](https://forum.nim-lang.org/t/6483)
+* [Nim destructors and move semantics](https://nim-lang.org/docs/destructors.html)
+* [FOSDEM 2020 - Move semantics for Nim](https://www.youtube.com/watch?v=yA32Wxl59wo)
+* [NimConf 2020 - Nim ARC/ORC](https://www.youtube.com/watch?v=aUJcYTnPWCg)
+* [Nim community](https://nim-lang.org/community.html)
+* [RFC: Unify Nim’s GC/memory management options](https://github.com/nim-lang/RFCs/issues/177)
 
 ---
 *Scritto il Giovedì 15 Ottobre 2020*  
-*L'articolo originale di Danil Yarantsev lo puoi trovare [qui]
-(https://nim-lang.org/blog/2020/10/15/introduction-to-arc-orc-in-nim.html).*
+*L'articolo originale di Danil Yarantsev lo puoi trovare [qui](https://nim-lang.org/blog/2020/10/15/introduction-to-arc-orc-in-nim.html).*
 
 [🏠 Ritorna alla pagina iniziale](https://rc-05.github.io/index-it)
