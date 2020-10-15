@@ -14,7 +14,7 @@ scrivo degli articoli.
 
 ## Articoli
 
-* [Cosa sono ARC ed ORC in Nim? (15 Ott 2020)](https://rc-05.github.io/articoli/arc-orc-nim)
+* [Introduzione ad ARC e ORC in Nim (15 Ott 2020)](https://rc-05.github.io/articoli/arc-orc-nim)
 * [docgen - Una libreria per generare documentazione in Scheme (20 Mar 2020)](https://rc-05.github.io/articoli/docgen)
 
 ## Cose Extra
