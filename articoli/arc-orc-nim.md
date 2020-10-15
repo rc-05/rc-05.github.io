@@ -1,4 +1,4 @@
-# Introduzione ad ARC ed ORC in Nim
+# Introduzione ad ARC e ORC in Nim
 
 ## Introduzione
 
@@ -35,13 +35,13 @@ più famosi per rilasciare le risorse inutilizzate in un programma.
 (controllato dal runtime) indica quante volte uno specifico riferimento viene
 utilizzato in altri punti.
 Quando quel contatore arriva a zero il riferimento e tutte le risorse associate
-ad esso vengono rilasciati.
+a esso vengono rilasciati.
 
-La differenza principale tra ARC ed i GC di Nim è che ARC è completamente
-**deterministico** - il compilatore *initetta* automaticamente quando determina
-che una variabile (stringa, sequenza, riferimento o quant'altro)
-non è più necessaria: praticamente è molto simile al RAII del C++ con i suoi
-distruttori.
+La differenza principale tra ARC e i GC di Nim è che ARC è completamente
+**deterministico** - il compilatore inserisce automaticamente la chiamata al
+distruttore quando determina che una variabile (stringa, sequenza, riferimento
+o quant'altro) non è più necessaria: praticamente è molto simile al RAII del
+C++ con i suoi distruttori.
 Per illustrare quanto sto dicendo possiamo usare `expandArc`
 (sarà disponibile con Nim 1.4).
 
@@ -91,7 +91,7 @@ Questo mette in mostra una delle caratteristiche principali di ARC:
 **gestione della memoria basato su "blocchi"**. Un "blocco" è una regione
 separata di codice nel nostro programma.
 Una gestione della memoria basata sui "blocchi" implica che il compilatore
-inserirà automaticamente le chiamate al distruttore per ogni variabile che
+inserirà automaticamente la chiamata al distruttore per ogni variabile che
 necessita di esso quando si esce da un "blocco" di codice.
 Molti construtti in Nim introducono un nuovo "blocco": `proc`, `func`,
 convertitori, metodi, `block`, cicle `for` e `while`, ecc.
@@ -102,7 +102,7 @@ comportamento di default
 quando la variabile viene distrutta/spostata/cambiata. Questo ritorna
 particolarmente utile nel caso si voglia implementare dei costrutti
 personalizzati per i propri tipi oppure per
-occuparsi di operazioni di basso livello come utilizzare i puntatori od
+occuparsi di operazioni di basso livello come utilizzare i puntatori o
 anche per una FFI.
 
 I vantaggi di ARC rispetto al GC `refc` predefinito sono
@@ -117,7 +117,7 @@ e convertire le copie di blocchi di memoria in spostamenti ove possibile.
 di memoria quindi non hai bisogno di copiare le variabili per passarle da un
 thread ad un altro, puoi semplicemente effettuare uno spostamento;
 vedi questo [RFC](https://github.com/nim-lang/RFCs/issues/244) riguardante
-l'isolamento e l'invio di dati da un thread ad un altro.
+l'isolamento e l'invio di dati tra diversi thread.
 * Adatto per [**Sistemi Real-Time**](https://it.wikipedia.org/wiki/Sistema_real-time).
 * FFI più semplice da usare (`refc` richiede di settare il GC manualmente per
 ogni thread esterno all'applicazione, cosa non richiesta con ARC).
@@ -144,7 +144,7 @@ dipendenze cicliche.
 In poche parole, una dipendenza ciclica si verifica quando delle variabili
 fanno riferimeno una all'altra, in modo da ricordare un ciclo perpetuo.
 Facciamo un semplice esempio: abbiamo tre oggetti (A, B, C) e ciascuno di essi
-fa riferimento ad un altro oggetto, un'illustrazione ci aiuterà a capire meglio:
+fa riferimento a un altro oggetto, un'illustrazione ci aiuterà a capire meglio:
 
 ![cicli](https://nim-lang.org/assets/news/images/yardanico-arc/cycle.svg)
 
@@ -181,7 +181,7 @@ un [pre-rilascio della versione 1.4](https://github.com/nim-lang/nightlies/
 releases/tag/2020-10-07-version-1-4-3b901d1e361f49d48fb64d115e42c04a4a37100c).
 
 Questo è tutto! Grazie per aver letto l'articolo - spero che sia stato di tuo
-gradimento e che possa apprezzare le possibilità che ARC ed ORC forniscono
+gradimento e che possa apprezzare le possibilità che ARC e ORC forniscono
 a Nim :)
 
 ### Fonti / Ulteriori informazioni
