@@ -2,6 +2,8 @@ Hi! Welcome to my humble site!
 I am an aspiring developer, occasional musician and sometimes I write articles
 about stuff.
 
+[🇮🇹 Versione Italiana](https://rc-05.github.io/index-it)
+
 ## Projects
 
 * [package-helper](https://github.com/rc-05/package-helper)
